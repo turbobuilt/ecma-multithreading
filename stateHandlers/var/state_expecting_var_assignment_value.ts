@@ -1,6 +1,6 @@
-import { isWhitespace } from "../helpers/isWhitespace";
-import { State, StateNode } from "../State";
-import state_double_quote_string from "./state_double_quote_string";
+import { isWhitespace } from "../../helpers/isWhitespace";
+import { State, StateNode } from "../../State";
+import state_double_quote_string from "../state_double_quote_string";
 
 export default function(state: State, char) {
     if (char === '"') {

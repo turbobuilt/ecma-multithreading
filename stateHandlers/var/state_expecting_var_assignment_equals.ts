@@ -1,4 +1,4 @@
-import { State, StateNode } from "../State";
+import { State, StateNode } from "../../State";
 import state_expecting_var_assignment_value from "./state_expecting_var_assignment_value";
 
 export default function(state: State, char) {

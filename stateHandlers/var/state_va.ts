@@ -1,10 +1,10 @@
-import { State, StateNode } from "../State";
-import state_va from "./state_va";
+import { State, StateNode } from "../../State";
+import state_var from "./state_var";
 
 export default function(state: State, char) {
-    if (char === "a") {
+    if (char === "r") {
         state.replace({
-            state: state_va
+            state: state_var
         });
     } else {
         throw new Error(`Invalid character: ${char}`);

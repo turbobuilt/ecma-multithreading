@@ -1,4 +1,4 @@
-import { State, StateNode } from "../State";
+import { State, StateNode } from "../../State";
 import state_var_identifier from "./state_var_identifier";
 
 export default function(state: State, char) {
